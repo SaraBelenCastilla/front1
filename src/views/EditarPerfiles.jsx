@@ -45,7 +45,7 @@ function EditarPerfiles() {
       fetch(VITE_LINK_API_PERFIL,options)
       .then(res=>res.json()).then(data=>{
         if (data.status == 'success') {
-            window.location.href = '/miPerfil';
+            window.location.href = 'miPerfil';
         }
     })
     .catch((err) => console.log(err))
