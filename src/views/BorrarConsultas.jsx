@@ -24,7 +24,7 @@ function BorrarConsultas() {
     .then(res=>res.json())
     .then(data=>{
       if (data.status == 'success') {
-        window.location.href = '/';
+        window.location.href = 'Consultas';
       }
     })
     .catch((err) => console.log(err))
