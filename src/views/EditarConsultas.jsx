@@ -48,7 +48,7 @@ function EditarConsultas() {
       fetch(VITE_LINK_API_LOCALHOST+'Consultas',options)
       .then(res=>res.json()).then(data=>{
         if (data.status == 'success') {
-            window.location.href = '/Consultas';
+            window.location.href = '/';
         }
     })
      
